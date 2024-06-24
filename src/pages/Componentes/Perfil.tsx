@@ -1,18 +1,18 @@
-import React from 'react'
+import React from 'react';
 
-interface Props{
-    <nombre:string
-    apellido:string
-    Edad:number
+interface Props {
+  nombre: string;
+  apellido: string;
+  edad: number;
 }
 
-export const Perfil = (props:any) => {
-    return (
-        <div>
-        Nombre:{props.nombre}
-        Apellido:{props.apellido}
-        Edad:{props.edad}
-    {props.edad>18 && <p>Eres mayor de edad</p>}
+export const Perfil: React.FC<Props> = ({ nombre, apellido, edad }) => {
+  return (
+    <div>
+      <p>Nombre: {nombre}</p>
+      <p>Apellido: {apellido}</p>
+      <p>Edad: {edad}</p>
+      {edad > 18 && <p>Eres mayor de edad</p>}
     </div>
-    )
-}
+  );
+};

@@ -1,22 +1,25 @@
-
 import { Perfil } from "./Componentes/Perfil";
-//import styles from "@/styles/Home.module.css";
+import Link from 'next/link';
+// import styles from "@/styles/Home.module.css";
+
 export default function Home() {
-  return(
+  return (
     <>
-    <nav>
-      {
-        /*busque:useEffct , usustate* crear formulario/
-      }
-        <Link href="About">
-        About
-        </Link href="Pagina1">
-        Pagina1
+      <nav>
+        {/* 
+          busque: useEffect, useState 
+          crear formulario
+        */}
+        <Link href="/About">
+          About
         </Link>
-        </nav>
-        <p>hola</p>
-        <Perfil nombre= "Luciano" apellido="Carrizo" edad={17}/>
-        <Perfil nombre = "Diego" apellido="Castro" edad={25}/>
+        <Link href="/Pagina1">
+          Pagina1
+        </Link>
+      </nav>
+      <p>hola</p>
+      <Perfil nombre="Luciano" apellido="Carrizo" edad={17} />
+      <Perfil nombre="Diego" apellido="Castro" edad={25} />
     </>
-  )
+  );
 }
