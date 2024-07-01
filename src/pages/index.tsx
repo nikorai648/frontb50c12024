@@ -1,5 +1,6 @@
 import { Perfil } from "./Componentes/Perfil";
 import Link from 'next/link';
+import React, {useState} from 'react'
 // import styles from "@/styles/Home.module.css";
 
 export default function Home() {
@@ -15,6 +16,9 @@ export default function Home() {
         </Link>
         <Link href="/Pagina1">
           Pagina1
+        </Link>
+        <Link href="/Pagina2">
+         Pagina2
         </Link>
       </nav>
       <p>hola</p>
