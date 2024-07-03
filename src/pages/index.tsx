@@ -20,6 +20,12 @@ export default function Home() {
         <Link href="/Pagina2">
          Pagina2
         </Link>
+        <Link href="/Pagina3">
+         Pagina3
+        </Link>
+        <Link href="/Pagina4">
+         Pagina4
+        </Link>
       </nav>
       <p>hola</p>
       <Perfil nombre="Luciano" apellido="Carrizo" edad={17} />
