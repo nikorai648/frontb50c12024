@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-
 export const Pagina2=()=>{
     const [n1,setN1] = useState(0)
     const [n2,setN2] = useState(0)
@@ -38,6 +37,7 @@ export const Pagina2=()=>{
         </Form.Group>
         <Form.Label>Resultado</Form.Label>
         </Form>
+
         </>
     )
 }
