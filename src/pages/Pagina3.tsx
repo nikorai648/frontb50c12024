@@ -87,3 +87,4 @@ const Pagina3 =()=> {
         </>
     )
 }
+export default Pagina3
