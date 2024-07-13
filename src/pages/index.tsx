@@ -26,6 +26,9 @@ export default function Home() {
         <Link href="/Pagina4">
          Pagina4
         </Link>
+        <Link href="/Pagina5">
+        Pagina5
+        </Link>
       </nav>
       <p>hola</p>
       <Perfil nombre="Luciano" apellido="Carrizo" edad={17} />
